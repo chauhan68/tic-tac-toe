@@ -1,0 +1,26 @@
+.board {
+    width: 350px;
+    font-family: sans-serif;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.resetButton {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 0;
+    background-color: #999;
+}
+
+.resetButton:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
