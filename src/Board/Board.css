@@ -24,3 +24,13 @@ h1 {
     cursor: pointer;
     filter: brightness(150%);
 }
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-list button {
+    padding: .5rem;
+    margin: .5rem;
+}
